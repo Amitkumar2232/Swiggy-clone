@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures consistent sizing across elements */
+}
+
+.container {
+    background-color: orangered;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly; /* Ensures even spacing between logo and elements */
+    align-items: center; /* Aligns items vertically in the center */
+    width: 100%; /* Full width */
+    padding: 10px 50px; /* Adds spacing inside */
+    margin-top: 25px;
+    box-sizing: border-box;
+}
+
+.icon img {
+    height: 50px;
+}
+
+.elements {
+    display: flex; /* Aligns items horizontally */
+}
+
+.elements ul {
+    list-style: none;
+    display: flex; /* Displays list items in a row */
+    align-items: center; /* Ensures items are vertically aligned */
+    margin: 0;
+    padding: 0;
+}
+
+.elements ul li {
+    margin-left: 30px; /* Adjust spacing between list items */
+}
+
+.elements ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-weight: bolder;
+}
+
+.nav-btn1 {
+    padding: 16px 25px; /* Adjust button padding */
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-family: "Poppins", serif;
+    font-weight: bolder;
+    cursor: pointer; /* Adds pointer cursor on hover */
+}
+
+.nav-btn2 {
+    padding: 20px 45px; /* Adjust button padding */
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-family: "Poppins", serif;
+    font-weight: bolder;
+    cursor: pointer; /* Adds pointer cursor on hover */
+}
+
+.container-2 {
+    display: flex; /* Flexbox layout for left and right sections */
+    width: 100%;
+    /* border: 2px solid black; */
+    justify-content: space-between; /* Ensures space between left and right sections */
+    align-items: center; /* Vertically aligns content */
+}
+
+.left-veg, .right-veg {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-veg img, .right-veg img {
+    height: 100%;
+    object-fit: cover;
+}
+.container-2 .container-3 {
+    /* border: 1px solid white; */
+    height: 200px;
+    margin-top: -90px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    display: flex;
+    justify-content: center; /* Centers the search section */
+    align-items: center;
+    flex-direction: column;
+    gap: 20px; /* Adds space between elements */
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    width: 90%; /* Adjust width to fit parent container */
+    gap: 10px; /* Adds space between search-1 and search-2 */
+}
+
+.search-1,
+.search-2 {
+    background-color: white;
+    border: 1px double rgb(26, 25, 25);
+    border-radius: 10px;
+    display: flex;
+    align-items: center; /* Ensures content is vertically centered */
+    padding: 5px; /* Adds spacing inside the input box */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.search-1 {
+    width: 40%; /* Adjusted width for balance */
+}
+
+.search-2 {
+    width: 55%;
+    border-radius: 15px; /* Smaller radius for a modern look */
+}
+.container-3{
+    text-align: center;
+}
+.container-3 input {
+    border: none;
+    width: 100%; /* Ensures the input takes full width inside parent */
+    padding: 10px 15px; /* Adjusted padding for consistency */
+    font-weight: 600;
+    font-size: 15px;
+    outline: none; /* Removes default blue outline */
+    font-family: "Poppins", serif;
+    border-radius: 5px; /* Adds a slight radius for inputs */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle inner shadow for depth */
+}
+
+.container-3 input:focus {
+    border: 1px solid orangered; /* Highlight border on focus */
+    box-shadow: 0 0 8px rgba(255, 69, 0, 0.5); /* Adds a glowing effect */
+}
+.container-4 {
+    display: flex;
+    justify-content: space-evenly; /* Ensures even spacing between the boxes */
+    width: 80%;
+    margin: 0 auto; /* Centers the container horizontally */
+    margin-top: -120px; /* Adjust as needed for positioning */
+    gap: 20px; /* Adds spacing between the boxes */
+}
+
+.box1 {
+    margin-top: -40px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 15px;
+    width: 23%;
+    height: 220px;
+    display: flex; /* Enables Flexbox for internal alignment */
+    flex-direction: column; /* Aligns children vertically */
+    justify-content: space-between; /* Pushes content to top and bottom */
+    padding: 10px; /* Adds inner spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow for depth */
+    text-align: center; /* Ensures centered text alignment */
+}
+
+.box1-1 {
+    font-family: sans-serif;
+    font-size: 12px; /* Slightly increased for better readability */
+    font-weight: bold;
+    margin-top: 10px; /* Adds spacing from the top of the box */
+}
+
+.box1-2 {
+    font-family: sans-serif;
+    font-size: 10px; /* Adjust font size as needed */
+    font-weight: normal;
+    margin-bottom: 10px; /* Adds spacing from the bottom of the box */
+    display: flex; /* Optional: Center-align elements inside .box1-2 */
+    align-items: center;
+    justify-content: center;
+}
+.box1-1 h2{
+    background: linear-gradient(to right, orangered, white); /* Example gradient */
+
+}
+.container-5{
+    height: 600px;
+    /* border: 1px solid red; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-5-sec1{
+    /* border: 1px solid red; */
+    height: 500px;
+    width: 80%;
+}
+.container-5-sec1-box{
+    display: flex;
+    justify-content: space-between;
+}
+.container-5-sec1-box2-btn{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 1px solid rgb(120, 117, 117);
+    background-color: rgb(192, 186, 186);
+    cursor: pointer;
+}
+.container-5-sec1-box2-btn:disabled{
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.slider-container{
+    max-width: 100%;
+            overflow-x: auto;
+            white-space: nowrap;
+            padding-top: 70px;
+            background-color: white;
+}
+.food-card {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    margin: 0 15px;
+}
+.food-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.food-card p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer{
+    background-color: rgba(218, 214, 214, 0.616);
+    padding-top: 50px;
+   
+}
+.footer-section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.footer li:first-child{
+    font-weight: bolder;
+}
+.footer ul{
+    list-style-type: none;
+}
+.footer li{
+    line-height: 2;
+}
+.footer a{
+text-decoration: none;
+color: black;
+font-family: "Poppins", serif;
+}
